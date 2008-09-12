@@ -1,5 +1,8 @@
 Revision history for Perl extension Acme-CPANAuthors-Austrian
 
+0.03  2008-09-12T16:43:25Z (Marcel Gruenauer <marcel@cpan.org>)
+     - added authors DRRHO, NINE
+
 0.02  2008-09-12T16:33:12Z (Marcel Gruenauer <marcel@cpan.org>)
      - added authors PEPL, ZEYA
 
