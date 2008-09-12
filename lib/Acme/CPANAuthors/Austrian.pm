@@ -4,10 +4,12 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 
 use Acme::CPANAuthors::Register (
+    ANDK     => 'Andreas J. König',
+    AREIBENS => 'Alfred Reibenschuh',
     DOMM     => 'Thomas Klausner',
     DRRHO    => 'Robert Barta',
     FLORIAN  => 'Florian Helmberger',
