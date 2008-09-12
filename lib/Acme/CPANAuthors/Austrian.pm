@@ -4,17 +4,19 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 use Acme::CPANAuthors::Register (
     DOMM     => 'Thomas Klausner',
     FLORIAN  => 'Florian Helmberger',
     GARGAMEL => 'Karlheinz Zöchling',
-    LAMMEL   =>'Roland Lammel',
+    LAMMEL   => 'Roland Lammel',
     MARCEL   => 'Marcel Gruenauer == hanekomu',
     MAROS    => 'Maroš Kollár',
+    PEPL     => 'Michael Kröll',
     RGIERSIG => 'Roland Giersig',
+    ZEYA     => 'Hansjörg Pehofer',
 );
 
 
