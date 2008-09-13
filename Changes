@@ -1,5 +1,8 @@
 Revision history for Perl extension Acme-CPANAuthors-Austrian
 
+0.05  2008-09-13T12:09:38Z (Marcel Gruenauer <marcel@cpan.org>)
+     - fixed module pod abstract
+
 0.04  2008-09-12T20:40:37Z (Marcel Gruenauer <marcel@cpan.org>)
      - added authors ANDK, AREIBENS
 

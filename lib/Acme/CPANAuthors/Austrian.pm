@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 
 use Acme::CPANAuthors::Register (
@@ -30,7 +30,7 @@ __END__
 
 =head1 NAME
 
-Acme::CPANAuthors::Austrian - We are CPAN authors using CodeRepos
+Acme::CPANAuthors::Austrian - We are Austrian CPAN authors
 
 =head1 SYNOPSIS
 
