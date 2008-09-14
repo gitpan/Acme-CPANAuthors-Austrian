@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 
 use Acme::CPANAuthors::Register (
@@ -20,6 +20,7 @@ use Acme::CPANAuthors::Register (
     NINE     => 'Stefan Seifert',
     PEPL     => 'Michael Kröll',
     RGIERSIG => 'Roland Giersig',
+    RURBAN   => 'Reini Urban',
     ZEYA     => 'Hansjörg Pehofer',
 );
 
