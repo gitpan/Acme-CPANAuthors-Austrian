@@ -8,9 +8,9 @@ use Test::Differences;
 
 
 my $authors = Acme::CPANAuthors->new('Austrian');
-is($authors->count, 14, 'number of authors');
+is($authors->count, 15, 'number of authors');
 eq_or_diff [ sort $authors->id ], [ qw(
-    ANDK AREIBENS DOMM DRRHO FLORIAN GARGAMEL LAMMEL MARCEL MAROS NINE PEPL
-    RGIERSIG RURBAN ZEYA
+    ANDK AREIBENS DOMM DRRHO FLORIAN GARGAMEL LAMMEL MARCEL MAROS NINE NUFFIN
+    PEPL RGIERSIG RURBAN ZEYA
 ) ], 'author IDs';
 

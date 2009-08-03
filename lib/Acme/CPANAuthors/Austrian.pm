@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 
 use Acme::CPANAuthors::Register (
@@ -18,6 +18,7 @@ use Acme::CPANAuthors::Register (
     MARCEL   => 'Marcel Gruenauer == hanekomu',
     MAROS    => 'Maroš Kollár',
     NINE     => 'Stefan Seifert',
+    NUFFIN   => 'Yuval Kogman',
     PEPL     => 'Michael Kröll',
     RGIERSIG => 'Roland Giersig',
     RURBAN   => 'Reini Urban',
