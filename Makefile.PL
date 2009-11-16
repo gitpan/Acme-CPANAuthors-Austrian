@@ -1,20 +1,32 @@
 use inc::Module::Install;
 include 'Module::AutoInstall';
-
 name 'Acme-CPANAuthors-Austrian';
 all_from 'lib/Acme/CPANAuthors/Austrian.pm';
-perl_version '5.006';
-
-homepage 'http://search.cpan.org/dist/Acme-CPANAuthors-Austrian/';
-bugtracker 'http://rt.cpan.org/Public/Dist/Display.html?Name=Acme-CPANAuthors-Austrian';
-repository 'http://github.com/hanekomu/acme-cpanauthors-austrian/tree/master';
-
+readme_from_pod;
+readme_markdown_from_pod;
+auto_set_homepage;
+auto_set_bugtracker;
+auto_set_repository;
 requires 'Acme::CPANAuthors';
-
 test_requires 'Test::More' => '0.70';
 test_requires 'Test::Differences';
 extra_tests;
+author_requires 'ShipIt';
+author_requires 'ShipIt::Step::DistClean';
+author_requires 'ShipIt::Step::DistTestExtra';
+author_requires 'ShipIt::Step::Manifest';
+author_requires 'ShipIt::Step::Twitter';
+author_requires 'Test::Compile';
+author_requires 'Test::Perl::Critic';
+author_requires 'Test::Pod';
+author_requires 'Test::Spelling';
+author_requires 'Pod::Wordlist::hanekomu';
+author_requires 'Test::Pod::Coverage';
 
+# author_requires 'Test::Kwalitee';   # Attempt to free unreferenced scalar
+author_requires 'Test::YAML::Meta';
+author_requires 'Test::Portability::Files';
+author_requires 'Test::Synopsis';
 auto_install;
 auto_include;
 WriteAll;

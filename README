@@ -1,31 +1,50 @@
-This is the Perl distribution Acme-CPANAuthors-Austrian.
+NAME
+    Acme::CPANAuthors::Austrian - We are Austrian CPAN authors
 
-## Description
+SYNOPSIS
+       use Acme::CPANAuthors;
+       use Acme::CPANAuthors::Austrian;
 
-This class provides a hash of Pause ID/name of Austrian CPAN authors.
+       my $authors = Acme::CPANAuthors->new('Austrian');
 
-## Installation
+       my $number   = $authors->count;
+       my @ids      = $authors->id;
+       my @distros  = $authors->distributions('MARCEL');
+       my $url      = $authors->avatar_url('DOMM');
+       my $kwalitee = $authors->kwalitee('GARGAMEL');
 
-Acme-CPANAuthors-Austrian installation is straightforward. If your CPAN shell
-is set up, you should just be able to do
+DESCRIPTION
+    This class provides a hash of Pause ID/name of Austrian CPAN authors.
 
-    % cpan Acme::CPANAuthors::Austrian
+MAINTENANCE
+    If you are an Austrian CPAN author and are not listed here, please mail
+    me.
 
-Download it, unpack it, then build it as per the usual:
+SEE ALSO
+    Acme::CPANAuthors - Main class to manipulate this one.
 
-    % perl Makefile.PL
-    % make && make test
+BUGS AND LIMITATIONS
+    No bugs have been reported.
 
-Then install it:
+    Please report any bugs or feature requests through the web interface at
+    <http://rt.cpan.org>.
 
-    % make install
+INSTALLATION
+    See perlmodinstall for information and options on installing Perl
+    modules.
 
-## Documentation
+AVAILABILITY
+    The latest version of this module is available from the Comprehensive
+    Perl Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a
+    CPAN site near you. Or see
+    <http://search.cpan.org/dist/Acme-CPANAuthors-Austrian/>.
 
-Acme-CPANAuthors-Austrian documentation is available as in POD. So you can do:
+AUTHOR
+    Marcel Grünauer, "<marcel@cpan.org>"
 
-    % perldoc Acme::CPANAuthors::Austrian
+COPYRIGHT AND LICENSE
+    Copyright 2008-2009 by Marcel Grünauer
 
-to read the documentation online with your favorite pager.
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
 
-Marcel Gruenauer

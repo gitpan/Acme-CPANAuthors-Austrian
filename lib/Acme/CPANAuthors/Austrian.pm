@@ -1,12 +1,8 @@
 package Acme::CPANAuthors::Austrian;
-
+use 5.006;
 use strict;
 use warnings;
-
-
-our $VERSION = '0.07';
-
-
+our $VERSION = '0.08';
 use Acme::CPANAuthors::Register (
     ANDK     => 'Andreas J. König',
     AREIBENS => 'Alfred Reibenschuh',
@@ -14,6 +10,7 @@ use Acme::CPANAuthors::Register (
     DRRHO    => 'Robert Barta',
     FLORIAN  => 'Florian Helmberger',
     GARGAMEL => 'Karlheinz Zöchling',
+    KALEX    => 'Alexander Keusch',
     LAMMEL   => 'Roland Lammel',
     MARCEL   => 'Marcel Gruenauer == hanekomu',
     MAROS    => 'Maroš Kollár',
@@ -24,10 +21,7 @@ use Acme::CPANAuthors::Register (
     RURBAN   => 'Reini Urban',
     ZEYA     => 'Hansjörg Pehofer',
 );
-
-
 1;
-
 __END__
 
 =head1 NAME
@@ -74,7 +68,7 @@ See perlmodinstall for information and options on installing Perl modules.
 
 The latest version of this module is available from the Comprehensive Perl
 Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a CPAN
-site near you. Or see <http://www.perl.com/CPAN/authors/id/M/MA/MARCEL/>.
+site near you. Or see L<http://search.cpan.org/dist/Acme-CPANAuthors-Austrian/>.
 
 =head1 AUTHOR
 
@@ -82,10 +76,9 @@ Marcel GrE<uuml>nauer, C<< <marcel@cpan.org> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2008 by Marcel GrE<uuml>nauer
+Copyright 2008-2009 by Marcel GrE<uuml>nauer
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 =cut
-
