@@ -25,7 +25,7 @@ If you are an Austrian CPAN author and are not listed here, please mail me.
 
 # SEE ALSO
 
-[Acme::CPANAuthors](http://search.cpan.org/search?mode=module&query=Acme::CPANAuthors) - Main class to manipulate this one.
+[Acme::CPANAuthors](http://search.cpan.org/perldoc?Acme::CPANAuthors) - Main class to manipulate this one.
 
 # BUGS AND LIMITATIONS
 

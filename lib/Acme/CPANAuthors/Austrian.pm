@@ -2,7 +2,7 @@ package Acme::CPANAuthors::Austrian;
 use 5.006;
 use strict;
 use warnings;
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 use Acme::CPANAuthors::Register (
     ANDK     => 'Andreas J. König',
     AREIBENS => 'Alfred Reibenschuh',
@@ -12,6 +12,7 @@ use Acme::CPANAuthors::Register (
     GARGAMEL => 'Karlheinz Zöchling',
     KALEX    => 'Alexander Keusch',
     LAMMEL   => 'Roland Lammel',
+    LANTI    => 'Ingo Lantschner',
     MARCEL   => 'Marcel Gruenauer == hanekomu',
     MAROS    => 'Maroš Kollár',
     NINE     => 'Stefan Seifert',

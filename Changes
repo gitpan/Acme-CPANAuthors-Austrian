@@ -1,5 +1,8 @@
 Revision history for Perl extension Acme-CPANAuthors-Austrian
 
+0.09 Sun 2010.02.07 22:26:55 CET (Marcel Gruenauer <marcel@cpan.org>)
+     - added author LANTI
+
 0.08 Mon 2009.11.16 15:05:06 CET (Marcel Gruenauer <marcel@cpan.org>)
      - added author KALEX
      - repo maintenance
