@@ -1,13 +1,10 @@
+
 This is the Perl distribution Acme-CPANAuthors-Austrian.
-
-## Description
-
-This class provides a hash of Pause ID/name of Austrian CPAN authors.
 
 ## Installation
 
-Acme-CPANAuthors-Austrian installation is straightforward. If your CPAN shell
-is set up, you should just be able to do
+Acme-CPANAuthors-Austrian installation is straightforward.
+If your CPAN shell is set up, you should just be able to do
 
     % cpan Acme::CPANAuthors::Austrian
 
@@ -22,10 +19,9 @@ Then install it:
 
 ## Documentation
 
-Acme-CPANAuthors-Austrian documentation is available as in POD. So you can do:
+Acme-CPANAuthors-Austrian documentation is available as in POD.
+So you can do:
 
     % perldoc Acme::CPANAuthors::Austrian
 
-to read the documentation online with your favorite pager.
-
-Marcel Gruenauer
+to read the documentation with your favorite pager.
