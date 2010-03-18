@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 package Acme::CPANAuthors::Austrian;
-our $VERSION = '1.100710';
+our $VERSION = '1.100770';
 # ABSTRACT: We are Austrian CPAN authors
 
 use Acme::CPANAuthors::Register (
@@ -20,6 +20,7 @@ use Acme::CPANAuthors::Register (
     MAROS    => 'Maroš Kollár',
     NINE     => 'Stefan Seifert',
     NUFFIN   => 'Yuval Kogman',
+    OPITZ    => 'Oliver Falk',
     PEPL     => 'Michael Kröll',
     RGIERSIG => 'Roland Giersig',
     RURBAN   => 'Reini Urban',
@@ -37,7 +38,7 @@ Acme::CPANAuthors::Austrian - We are Austrian CPAN authors
 
 =head1 VERSION
 
-version 1.100710
+version 1.100770
 
 =head1 SYNOPSIS
 

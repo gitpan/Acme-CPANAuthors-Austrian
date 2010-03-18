@@ -5,7 +5,7 @@ author:
 build_requires: {}
 configure_requires:
   ExtUtils::MakeMaker: 6.11
-generated_by: 'Dist::Zilla version 1.100660'
+generated_by: 'Dist::Zilla version 1.100711'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -14,7 +14,7 @@ name: Acme-CPANAuthors-Austrian
 provides:
   Acme::CPANAuthors::Austrian:
     file: lib/Acme/CPANAuthors/Austrian.pm
-    version: 1.100710
+    version: 1.100770
 requires:
   Acme::CPANAuthors: 0
   Acme::CPANAuthors::Register: 0
@@ -24,10 +24,10 @@ requires:
   File::Temp: 0
   Scalar::Util: 0
   Test::Differences: 0
-  Test::More: 0
+  Test::More: 0.88
   perl: 5.006
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Acme-CPANAuthors-Austrian
   homepage: http://search.cpan.org/dist/Acme-CPANAuthors-Austrian/
   repository: http://github.com/hanekomu/Acme-CPANAuthors-Austrian
-version: 1.100710
+version: 1.100770

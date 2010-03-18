@@ -2,7 +2,7 @@ NAME
     Acme::CPANAuthors::Austrian - We are Austrian CPAN authors
 
 VERSION
-    version 1.100710
+    version 1.100770
 
 SYNOPSIS
        use Acme::CPANAuthors;

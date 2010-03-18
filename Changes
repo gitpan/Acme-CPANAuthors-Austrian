@@ -1,5 +1,8 @@
 Revision history for Perl extension Acme-CPANAuthors-Austrian
 
+1.100770  2010-03-18 11:39:27 Europe/Vienna
+    - added author OPITZ
+
 1.100710  2010-03-12 15:00:38 Europe/Vienna
     - converted distribution to Dist::Zilla style
 
