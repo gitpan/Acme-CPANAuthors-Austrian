@@ -1,9 +1,10 @@
-use 5.006;
+use 5.008;
 use strict;
 use warnings;
+use utf8;
 
 package Acme::CPANAuthors::Austrian;
-our $VERSION = '1.100770';
+our $VERSION = 1.131810;
 # ABSTRACT: We are Austrian CPAN authors
 
 use Acme::CPANAuthors::Register (
@@ -13,6 +14,7 @@ use Acme::CPANAuthors::Register (
     DRRHO    => 'Robert Barta',
     FLORIAN  => 'Florian Helmberger',
     GARGAMEL => 'Karlheinz Zöchling',
+    GORTAN   => 'Philipp Gortan',
     KALEX    => 'Alexander Keusch',
     LAMMEL   => 'Roland Lammel',
     LANTI    => 'Ingo Lantschner',
@@ -28,8 +30,8 @@ use Acme::CPANAuthors::Register (
 );
 1;
 
-
 __END__
+
 =pod
 
 =head1 NAME
@@ -38,7 +40,7 @@ Acme::CPANAuthors::Austrian - We are Austrian CPAN authors
 
 =head1 VERSION
 
-version 1.100770
+version 1.131810
 
 =head1 SYNOPSIS
 
@@ -59,7 +61,8 @@ This class provides a hash of Pause ID/name of Austrian CPAN authors.
 
 =head1 MAINTENANCE
 
-If you are an Austrian CPAN author and are not listed here, please mail me.
+If you are an Austrian CPAN author and are not listed here, please
+mail the maintainers.
 
 =head1 SEE ALSO
 
@@ -71,26 +74,30 @@ See perlmodinstall for information and options on installing Perl modules.
 
 =head1 BUGS AND LIMITATIONS
 
-No bugs have been reported.
-
-Please report any bugs or feature requests through the web interface at
-L<http://rt.cpan.org/Public/Dist/Display.html?Name=Acme-CPANAuthors-Austrian>.
+You can make new bug reports, and view existing ones, through the
+web interface at L<http://rt.cpan.org/Public/Dist/Display.html?Name=Acme-CPANAuthors-Austrian>.
 
 =head1 AVAILABILITY
 
+The project homepage is L<http://search.cpan.org/dist/Acme-CPANAuthors-Austrian/>.
+
 The latest version of this module is available from the Comprehensive Perl
 Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN
-site near you, or see
-L<http://search.cpan.org/dist/Acme-CPANAuthors-Austrian/>.
+site near you, or see L<https://metacpan.org/module/Acme::CPANAuthors::Austrian/>.
 
-The development version lives at
-L<http://github.com/hanekomu/Acme-CPANAuthors-Austrian/>.
-Instead of sending patches, please fork this project using the standard git
-and github infrastructure.
+=head1 AUTHORS
 
-=head1 AUTHOR
+=over 4
 
-  Marcel Gruenauer <marcel@cpan.org>
+=item *
+
+Marcel Gruenauer <marcel@cpan.org>
+
+=item *
+
+Philipp Gortan <gortan@gmail.com>
+
+=back
 
 =head1 COPYRIGHT AND LICENSE
 
@@ -100,4 +107,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

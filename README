@@ -2,7 +2,7 @@ NAME
     Acme::CPANAuthors::Austrian - We are Austrian CPAN authors
 
 VERSION
-    version 1.100770
+    version 1.131810
 
 SYNOPSIS
        use Acme::CPANAuthors;
@@ -21,7 +21,7 @@ DESCRIPTION
 
 MAINTENANCE
     If you are an Austrian CPAN author and are not listed here, please mail
-    me.
+    the maintainers.
 
 SEE ALSO
     Acme::CPANAuthors - Main class to manipulate this one.
@@ -31,25 +31,24 @@ INSTALLATION
     modules.
 
 BUGS AND LIMITATIONS
-    No bugs have been reported.
-
-    Please report any bugs or feature requests through the web interface at
+    You can make new bug reports, and view existing ones, through the web
+    interface at
     <http://rt.cpan.org/Public/Dist/Display.html?Name=Acme-CPANAuthors-Austr
     ian>.
 
 AVAILABILITY
+    The project homepage is
+    <http://search.cpan.org/dist/Acme-CPANAuthors-Austrian/>.
+
     The latest version of this module is available from the Comprehensive
     Perl Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a
     CPAN site near you, or see
-    <http://search.cpan.org/dist/Acme-CPANAuthors-Austrian/>.
+    <https://metacpan.org/module/Acme::CPANAuthors::Austrian/>.
 
-    The development version lives at
-    <http://github.com/hanekomu/Acme-CPANAuthors-Austrian/>. Instead of
-    sending patches, please fork this project using the standard git and
-    github infrastructure.
+AUTHORS
+    *   Marcel Gruenauer <marcel@cpan.org>
 
-AUTHOR
-      Marcel Gruenauer <marcel@cpan.org>
+    *   Philipp Gortan <gortan@gmail.com>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2008 by Marcel Gruenauer.
